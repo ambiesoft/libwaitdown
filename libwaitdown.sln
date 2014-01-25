@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual C++ Express 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libwaitdown", "libwaitdown\libwaitdown.vcproj", "{BFA2DC5B-9674-4273-ACD2-23C8CED1CCD4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libwaitdownTest", "libwaitdownTest\libwaitdownTest.vcproj", "{1AE20FCD-D19C-4419-BDF9-CA4380593406}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		Ship|Win32 = Ship|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFA2DC5B-9674-4273-ACD2-23C8CED1CCD4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BFA2DC5B-9674-4273-ACD2-23C8CED1CCD4}.Debug|Win32.Build.0 = Debug|Win32
+		{BFA2DC5B-9674-4273-ACD2-23C8CED1CCD4}.Release|Win32.ActiveCfg = Release|Win32
+		{BFA2DC5B-9674-4273-ACD2-23C8CED1CCD4}.Release|Win32.Build.0 = Release|Win32
+		{BFA2DC5B-9674-4273-ACD2-23C8CED1CCD4}.Ship|Win32.ActiveCfg = Ship|Win32
+		{BFA2DC5B-9674-4273-ACD2-23C8CED1CCD4}.Ship|Win32.Build.0 = Ship|Win32
+		{1AE20FCD-D19C-4419-BDF9-CA4380593406}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1AE20FCD-D19C-4419-BDF9-CA4380593406}.Debug|Win32.Build.0 = Debug|Win32
+		{1AE20FCD-D19C-4419-BDF9-CA4380593406}.Release|Win32.ActiveCfg = Release|Win32
+		{1AE20FCD-D19C-4419-BDF9-CA4380593406}.Release|Win32.Build.0 = Release|Win32
+		{1AE20FCD-D19C-4419-BDF9-CA4380593406}.Ship|Win32.ActiveCfg = Ship|Win32
+		{1AE20FCD-D19C-4419-BDF9-CA4380593406}.Ship|Win32.Build.0 = Ship|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
