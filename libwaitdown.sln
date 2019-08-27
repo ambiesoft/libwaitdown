@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libwaitdown", "libwaitdown\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libwaitdownTest", "libwaitdownTest\libwaitdownTest.vcxproj", "{1AE20FCD-D19C-4419-BDF9-CA4380593406}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "libwaitdownTestCS", "libwaitdownTestCS\libwaitdownTestCS.csproj", "{D13D7C50-A89F-4B9B-B8EE-175579CF6ABF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -26,6 +28,10 @@ Global
 		{1AE20FCD-D19C-4419-BDF9-CA4380593406}.Release|Win32.Build.0 = Release|Win32
 		{1AE20FCD-D19C-4419-BDF9-CA4380593406}.Ship|Win32.ActiveCfg = Ship|Win32
 		{1AE20FCD-D19C-4419-BDF9-CA4380593406}.Ship|Win32.Build.0 = Ship|Win32
+		{D13D7C50-A89F-4B9B-B8EE-175579CF6ABF}.Debug|Win32.ActiveCfg = Debug|x86
+		{D13D7C50-A89F-4B9B-B8EE-175579CF6ABF}.Debug|Win32.Build.0 = Debug|x86
+		{D13D7C50-A89F-4B9B-B8EE-175579CF6ABF}.Release|Win32.ActiveCfg = Release|Any CPU
+		{D13D7C50-A89F-4B9B-B8EE-175579CF6ABF}.Ship|Win32.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

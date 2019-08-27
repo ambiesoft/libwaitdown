@@ -1,1 +1,6 @@
 ipch/
+*.sdf
+*.suo
+
+Debug/
+*.user
