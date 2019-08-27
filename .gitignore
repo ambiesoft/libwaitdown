@@ -3,4 +3,7 @@ ipch/
 *.suo
 
 Debug/
+Release/
+Ship/
+obj/
 *.user
