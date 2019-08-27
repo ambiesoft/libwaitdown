@@ -1,4 +1,5 @@
 #include "StdAfx.h"
+
 #include "FormWD.h"
 
 namespace libwaitdown {
@@ -36,9 +37,9 @@ namespace libwaitdown {
 			szT[0]=0;
 			if(0!=GetClassName(hwnd, szT, sizeof(szT)/sizeof(szT[0])))
 			{
-				strlwr(szT);
+				_tcslwr_s(szT);
 				// if(lstrcmpi("Internet Explorer_Hidden", szT)!=0)
-				if(strpbrk(szT, "hidden") == NULL )
+				if (_tcspbrk(szT, _T("hidden")) == NULL)
 				{
 					// if(lstrcmp("#32770",szT)==0)
 					int ccount = GetChildWindowCount(hwnd);
