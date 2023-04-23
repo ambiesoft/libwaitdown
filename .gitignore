@@ -1,6 +1,7 @@
 ipch/
 *.sdf
 *.suo
+.vs/
 
 Debug/
 Release/
